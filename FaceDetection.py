@@ -28,6 +28,6 @@ else:
                 cv2.imshow("Face Detection",frame)
                 if cv2.waitKey(1) & 0xFF==ord("q"):
                     break          
-video.release()
-cv2.destroyAllWindows()
+        video.release()
+        cv2.destroyAllWindows()
     
